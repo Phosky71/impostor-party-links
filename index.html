@@ -66,7 +66,7 @@
       document.getElementById('open-btn').style.display = 'none';
     } else {
       // intent:// fuerza la apertura desde WebViews de WhatsApp/Facebook
-      const intentUrl = 'intent://grupo?data=' + encodeURIComponent(data)
+      const intentUrl = 'intent://?data=' + encodeURIComponent(data)
         + '#Intent;scheme=impostorapp;package=com.phosky.impostorpersonalizadof;'
         + 'S.browser_fallback_url=' + encodeURIComponent(storeUrl) + ';end';
   
